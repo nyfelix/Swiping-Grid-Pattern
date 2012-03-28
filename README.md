@@ -10,4 +10,4 @@ Some interesting ressources
 * http://www.lukew.com/ff/entry.asp?1514
 * http://jasonweaver.name/lab/offcanvas/
 * http://css-tricks.com/content-folding/
-* 
+
