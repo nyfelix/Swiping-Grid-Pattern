@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Lobster+Two);
+@import url(css/yui-reset-stylesheet.min.css);
+
+
+/* 
+    Document   : sgp
+    Created on : 28.03.2012, 16:34:23
+    Author     : nyffenegge
+    Description:
+*/
+
+body {
+    vertical-align:top;
+    line-height:1.5em;
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+header {
+    background-color:#EE5757;
+    color: #ffffff;
+    font-family: 'Lobster Two';
+    font-size: 30pt;
+    padding: 0.5em 20px;
+    margin: 5px 0 0 5px;
+}
+
+.grid-section {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 12pt;
+    margin: 5px 0px 0 5px;
+    padding: 20px;
+    background-color:#dddddd;
+    height: 380px;
+    float:left;
+}
+
+.grid-section.one-col {
+    width:275px;
+}
+
+.grid-section.two-col-opt {
+    width:595px;
+}
+
+.grid-section.three-col-opt {
+    width:915px;
+}
+
+.first-col {
+    position:relative;
+    left:0px;
+}
+
+@media all and (max-width: 639px) {
+    header {
+        width: 275px;
+        font-size: 18pt;
+    }
+    .grid-section.two-col-opt {
+        width:275px;
+    }
+}
+
+
+@media all and (min-width: 640px) {
+    header {
+        width: 595px;
+    }
+    .grid-section.two-col-opt {
+        width:275px;
+    }
+}
+
+
+@media all and (min-width: 960px) {
+    header {
+        width: 915px;
+    }
+    .grid-section.two-col-opt {
+        width:595px;
+    }
+}
+
+
+@media all and (min-width: 1280px) {
+    header {
+        width: 1235px;
+    }
+    .grid-section.two-col-opt {
+        width:595px;
+    }
+}
+
+
+
+
+
